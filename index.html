@@ -23,8 +23,10 @@
     
    }
    .button:hover{
+    background-color:#fb667a;
     transform: scale(1.1);
-    color: black;    
+    color: rgb(255, 255, 255); 
+      
    }
 
     .topleft{
@@ -44,11 +46,14 @@
 
     a{
         background-color: white;
+        color: black;
     }
+
     .box-1{
         position: relative;
         z-index: 0;
     }
+
     .box-1::after{
         content: '';
         position: absolute;
@@ -63,6 +68,7 @@
         margin: auto;
         transition:  400ms all;
     }
+
     .box-1:hover::after{
         height: 0;
         width: 0;
@@ -128,7 +134,7 @@
                             <h2> Summer<br> 
                                 Season Sale
                             </h2>
-                                <a href="#" class="button">Shop Now</a>
+                                <a href="#" class="button" >Shop Now</a>
                           </div>
                         </div>
                     </div>
